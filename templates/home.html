@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+
+{% block title %}Página Inicial{% endblock %}
+
+{% block content %}
+<div class="container mt-5 text-center">
+    <h1 class="display-4">Bem-vindo ao Meu Site!</h1>
+    <p class="lead">Este é um teste de integração do Bootstrap 5 com Django.</p>
+
+    <a href="#" class="btn btn-primary btn-lg mt-3">Saiba Mais</a>
+</div>
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title">Funcionalidade 1</h5>
+                    <p class="card-text">Descrição breve da funcionalidade 1.</p>
+                    <a href="#" class="btn btn-outline-primary">Ver mais</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 mt-3 mt-md-0">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title">Funcionalidade 2</h5>
+                    <p class="card-text">Descrição breve da funcionalidade 2.</p>
+                    <a href="#" class="btn btn-outline-primary">Ver mais</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 mt-3 mt-md-0">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title">Funcionalidade 3</h5>
+                    <p class="card-text">Descrição breve da funcionalidade 3.</p>
+                    <a href="#" class="btn btn-outline-primary">Ver mais</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
